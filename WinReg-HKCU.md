@@ -18,6 +18,6 @@ Example with Adobe Reader DC
 
 - HKCU\Software\Adobe\Acrobat Reader\DC\TrustManager\cDefaultLaunchURLPerms
     - iURLPerms REG_DWORD 1
-      Block All Internet Hyperlinks, Allow All Value=2, Ask User Value=0
+      Block All Internet Hyperlinks, Allow All Value=2, Ask User Value=0  
       Corresponding Radio Buttons in the Gui Settings under Trust Manager/Internet Access/Change Settings
 
