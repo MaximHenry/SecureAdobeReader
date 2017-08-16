@@ -21,3 +21,11 @@ Example with Adobe Reader DC
       Block All Internet Hyperlinks, Allow All Value=2, Ask User Value=0  
       Corresponding Radio Buttons in the Gui Settings under Trust Manager/Internet Access/Change Settings
 
+- HKCU\Software\Adobe\Acrobat Reader\DC\JSPrefs
+    - bEnableJS REG_DWORD   0
+      Disable Adobe Javascript, Activate Value=1
+      Gui Settings under JavasSript
+    
+      To enable Javascript for some directories/files define them under
+      Settings - Security (Enhanced). This will create additional registry entries
+      under HKCU\Software\Adobe\Acrobat Reader\DC\TrustManager\cTrustedFolders .
